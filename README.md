@@ -17,5 +17,5 @@ Ex:
 
 To return to the default options in the config file:
 ```
-.\ResolutionSwitcher.Console.exe 3440 1440 144
+.\ResolutionSwitcher.Console.exe
 ```
