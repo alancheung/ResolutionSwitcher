@@ -8,10 +8,27 @@ namespace ResolutionSwitcher.Windows
     public class Definitions
     {
         public const int ENUM_CURRENT_SETTINGS = -1;
+
+        /// <summary>
+        /// Flag argument for <see cref="Functions.ChangeDisplaySettings(ref DEVMODE, int)"/>
+        /// </summary>
         public const int CDS_UPDATEREGISTRY = 0x01;
+        /// <summary>
+        /// Flag argument for <see cref="Functions.ChangeDisplaySettings(ref DEVMODE, int)"/>
+        /// </summary>
         public const int CDS_TEST = 0x02;
+
+        /// <summary>
+        /// Possible return value from <see cref="Functions.ChangeDisplaySettings(ref DEVMODE, int)"/>
+        /// </summary>
         public const int DISP_CHANGE_SUCCESSFUL = 0;
+        /// <summary>
+        /// Possible return value from <see cref="Functions.ChangeDisplaySettings(ref DEVMODE, int)"/>
+        /// </summary>
         public const int DISP_CHANGE_RESTART = 1;
+        /// <summary>
+        /// Possible return value from <see cref="Functions.ChangeDisplaySettings(ref DEVMODE, int)"/>
+        /// </summary>
         public const int DISP_CHANGE_FAILED = -1;
 
         [Flags]
